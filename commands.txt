@@ -1,0 +1,27 @@
+
+
+Comandos desde o inicio do projeto
+- yarn init -y
+- yarn add express
+- yarn add @types/express -D
+- yarn add typescript -D
+- yarn tsc --init
+- yarn add ts-node-dev -D 
+- yarn add typeorm reflect-metadata
+- yarn add sqlite3
+- yarn add jest @types/jest -D
+- yarn add supertest @types/supertest -D
+- yarn add handlebars
+- yarn add yup
+- yarn add express-async-errors
+
+- 1- yarn typeorm migration:create -n CreateUsers
+- 2- yarn typeorm migration:run
+
+* Formas de inserir banco na api
+
+1 - driver nativo ( linguagem de banco pura )
+
+2 - query builder ( knex, usa funções )
+
+3 - ORM 
